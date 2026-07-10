@@ -1,0 +1,26 @@
+name: vladislav_ptyazhko_cv
+description: "Онлайн-резюме Владислава Птяжко — Android-разработчика (Kotlin)"
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_svg: ^2.3.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/images/photo.jpg
+    - assets/images/trainify_icon.png
+    - assets/icons/github.svg
+    - assets/icons/telegram.svg
+    - assets/icons/linkedin.svg
+    - assets/icons/mmf_logo.svg
